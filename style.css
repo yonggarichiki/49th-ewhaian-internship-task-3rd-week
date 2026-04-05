@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #0d0d0d;
+    color: #ffffff;
+    font-family: sans-serif;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: #0d0d0d;
+    border-bottom: 1px solid #262626;
+}
+
+.header-container {
+    max-width: 1000px;
+    height: 70px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.logo {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+nav .nav-buttons button {
+    background: transparent;
+    border: 1px solid #38c172;
+    color: #38c172;
+    padding: 6px 15px;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+nav .nav-buttons button:hover {
+    background-color: #38c172;
+    color: #fff;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin-left: 20px;
+}
+
+nav ul li {
+    margin-left: 15px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+main {
+    max-width: 1000px;
+    margin: 60px auto;
+    padding: 0 20px;
+}
+
+h1 {
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+
+.category-filters {
+    margin-bottom: 30px;
+    display: flex;
+    gap: 10px;
+}
+
+.category-filters button {
+    border: none;
+    padding: 10px 25px;
+    border-radius: 25px;
+    cursor: pointer;
+    background-color: #262626;
+    color: #fff;
+}
+
+.category-filters button.active {
+    background-color: #ffffff;
+    color: #000;
+    font-weight: bold;
+}
+
+.faq-item {
+    background-color: #1a1a1a;
+    padding: 30px;
+    margin-bottom: 20px;
+    border-radius: 12px;
+}
+
+h3 {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+p {
+    color: #aaaaaa;
+    font-size: 15px;
+    line-height: 1.6;
+}
